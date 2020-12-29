@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PuzzleGame</title>
+        <meta name="author" content="Remigiuz Drobinski">
+        <meta name="description" content="PuzzleGame">
+        <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, user-scalable=no">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js" charset="utf-8" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <main>
+            <div id="container">
+                <h1>Puzzle Game!</h1>
+                <div id="puzzleContainer"></div>
+                <div id="clipboardContainer"></div>
+                <div id="desc">1. Gra zawiera dwa tryby - wolny i przesuwny.<br><br>
+                            2. W trybie wolnym możemy swobodnie poruszać elementami.<br><br>
+                            3. W trybie przesuwnym po kliknięciu w dany element, przenosi się on na początek planszy, następnie klikając w elementy na planszy przenosimy je na jej koniec.<br><br>
+                            4. Aktualny tryb określa przycisk poniżej.<br><br>
+                            5. Aby zmienić tryb należy kliknąć w przycisk poniżej.<br><br>
+                            6. Aby rozpocząć zabawę kliknij "START".</div>
+                <ul id="button">
+                    <button id="start">Start</button>
+                    <button id="change">Wolny</button>
+                    <button id="reset">Reset</button>
+                </ul>
+            </div>
+        </main>
+        <footer> Remigiusz 'CurioSis' Drobinski 2020 </footer>
+    </body>
+</html>
+
